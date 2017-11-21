@@ -42,8 +42,11 @@ struct FunctionalInstruction;
 struct FunctionDefinition;
 struct FunctionCall;
 struct Switch;
+struct Case;
 struct ForLoop;
 struct Block;
+
+struct TypedName;
 
 using Statement = boost::variant<Instruction, Literal, Label, StackAssignment, Identifier, Assignment, FunctionCall, FunctionalInstruction, VariableDeclaration, FunctionDefinition, Switch, ForLoop, Block>;
 

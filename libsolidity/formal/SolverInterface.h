@@ -44,7 +44,9 @@ enum class CheckResult
 
 enum class Sort
 {
-	Int, Bool, IntIntFun
+	Int,
+	Bool,
+	IntIntFun // Function of one Int returning a single Int
 };
 
 /// C++ representation of an SMTLIB2 expression.

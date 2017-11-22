@@ -30,7 +30,6 @@ namespace dev
 {
 namespace julia
 {
-class EVMAssembly;
 
 /**
  * Creates a copy of a iulia AST replacing all identifiers by unique names.
